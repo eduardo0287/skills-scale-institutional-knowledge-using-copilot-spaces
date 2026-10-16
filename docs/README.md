@@ -1,17 +1,14 @@
-# OctoAcme — Documentación de Gestión de Proyectos
+# OctoAcme — Project Management Process Overview
 
-Este conjunto de documentos centraliza las prácticas de gestión de proyectos usadas por OctoAcme. Aquí encontrarás un resumen de alto nivel y enlaces rápidos a cada guía de proceso en la carpeta docs/.
+This repository centralizes the project management practices used by OctoAcme. The documents in this folder provide a working model for how the team initiates, plans, executes, releases, and improves work across projects. The goal is to make critical process knowledge accessible, consistent, and easy to follow for both new and existing team members.
 
-## Resumen
-OctoAcme sigue un enfoque iterativo y centrado en el cliente con roles claramente definidos y artefactos que facilitan la toma de decisiones. La fase de iniciación utiliza un One‑pager para validar la necesidad y definir métricas de éxito; tras la autorización se crea un plan más detallado en la fase de planificación (kickoff, backlog priorizado, estimaciones y Definition of Done). La ejecución se organiza en sprints/milestones con un tablero de trabajo que mantiene la trazabilidad desde el backlog hasta la entrega.
+OctoAcme follows a customer-first, iterative delivery model. Work begins with a lightweight initiation phase where the team validates the problem, defines success metrics, identifies stakeholders, and creates a project one-pager. Once approved, the project moves into planning, where the backlog is prioritized, estimates are created, dependencies are identified, and a Definition of Done is established. Execution is coordinated through a tracked board and delivery rhythm that includes standups, weekly syncs, and sprint reviews to keep work visible and aligned.
 
-## Flujos de trabajo clave y control de calidad
-Se fomenta trabajo en pequeños incrementos y PRs disciplinados (PRs pequeños, enlace al issue, criterios de aceptación, CI pasando antes de solicitar revisión). Las releases siguen un checklist (staging, smoke tests, notas de release y plan de rollback) y hay un playbook para incidentes. En términos de calidad, OctoAcme requiere pruebas unitarias e integración cuando proceda, smoke/end‑to‑end en caminos críticos, escaneo de seguridad en CI y QA manual cuando sea necesario. Las métricas (velocity, burndown, dashboards) se usan para monitorizar progreso y resultados.
+Roles are clearly defined to support accountability and execution. Product Managers define the problem, prioritize work, and measure outcomes. Project Managers coordinate timelines, risks, and communication. Developers build and test solutions, QA validates delivery against acceptance criteria, and stakeholders provide input, prioritization, and approvals. Clear communication cadences and documented templates help the team stay informed, escalate issues early, and maintain a shared source of truth.
 
-## Comunicación y roles
-La comunicación se estructura con ritmos regulares: standups diarios cortos, sincronización semanal de entrega, demos/reviews por sprint y actualizaciones mensuales a stakeholders. El registro de riesgos y las plantillas de estado estandarizan los informes. Los roles principales son Product Manager (visión y métricas), Project Manager (coordinación, planificación y riesgos), desarrolladores (implementación y pruebas), QA/testing (validación) y stakeholders (aprobaciones y prioridades). Las dependencias y riesgos se registran y se escalan por niveles definidos.
+Quality and risk management are built into the workflow. Small PRs, CI checks, acceptance criteria, security scanning, and testing requirements help reduce defects and improve delivery confidence. Releases follow a standard checklist with smoke tests, release notes, rollback planning, and post-deployment verification. After each milestone or release, the team captures lessons learned in retrospectives and converts them into action items that improve process and execution over time.
 
-## Enlaces rápidos
+## Quick links
 - docs/octoacme-project-management-overview.md
 - docs/octoacme-project-initiation.md
 - docs/octoacme-project-planning.md
@@ -21,5 +18,5 @@ La comunicación se estructura con ritmos regulares: standups diarios cortos, si
 - docs/octoacme-retrospective-and-continuous-improvement.md
 - docs/octoacme-roles-and-personas.md
 
-## Cómo usar
-Coloca este README en la carpeta docs/ como punto de entrada para el equipo. Mantén los enlaces actualizados cuando los documentos cambien y usa este README para orientar a nuevos miembros y alinear revisiones de procesos.
+## How to use this folder
+Use this README as the entry point for onboarding and process review. Keep the links current and use the canonical documents in docs/ as the source of truth for project management practices across OctoAcme teams.
